@@ -65,6 +65,10 @@ ul {
 .banner {
   padding: 5%;
   background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
 }
 
 .banner-box {
@@ -72,6 +76,10 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.banner-img {
+  width: 400px;
 }
 
 /* Card Section */
@@ -98,7 +106,8 @@ ul {
     justify-content: end;
     align-items: left;
     height: 300px;
-    width: 450px;
+    max-width: 450px;
+    min-width: none;
     padding: 24px;
     gap: 6px;
     border: 2px solid black;
