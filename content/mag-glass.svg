@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="52.00956mm"
+   height="70.225647mm"
+   viewBox="0 0 52.00956 70.225647"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14">
+      <ellipse
+         style="display:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.931696;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="ellipse14"
+         cx="155.9695"
+         cy="120.04493"
+         rx="26.20643"
+         ry="21.582479"
+         d="m 182.17593,120.04493 a 26.20643,21.582479 0 0 1 -26.20643,21.58248 26.20643,21.582479 0 0 1 -26.20643,-21.58248 26.20643,21.582479 0 0 1 26.20643,-21.58248 26.20643,21.582479 0 0 1 26.20643,21.58248 z" />
+      <path
+         id="lpe_path-effect14"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.931696;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         class="powerclip"
+         d="m 114.33804,84.815811 h 90.85167 V 194.87459 h -90.85167 z m 67.83789,35.229119 a 26.20643,21.582479 0 0 0 -26.20643,-21.58248 26.20643,21.582479 0 0 0 -26.20643,21.58248 26.20643,21.582479 0 0 0 26.20643,21.58248 26.20643,21.582479 0 0 0 26.20643,-21.58248 z" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-120.06508,-73.076088)">
+    <path
+       id="ellipse13"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.29687;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 156.16256,90.464246 c -19.97956,4.4e-5 -36.17615,13.562324 -36.17609,30.292204 4.5e-4,27.10516 25.80904,30.70728 48.23121,28.72218 l 20.65296,39.74755 10.67067,-4.97954 -26.46815,-36.79673 c 11.81921,-5.23321 19.22782,-15.49827 19.26549,-26.69346 6e-5,-16.72988 -16.19653,-30.29216 -36.17609,-30.292204 z"
+       clip-path="url(#clipPath14)"
+       transform="matrix(0.64327129,0,0,0.70184391,43.298347,10.039409)" />
+  </g>
+</svg>

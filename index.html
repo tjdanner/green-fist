@@ -37,26 +37,74 @@
         <img src="content/green-fist-punch.svg" alt="" class="banner-img">
     </section>
 
+    <!-- Card Section -->
     <section class="card-section">
         <h1 class="heading-2">We Keep it Simple:</h1>
         <div class="card-container">
             <div class="card">
+                <img src="content/click.svg" alt="" class="card-icon">
                 <h2 class="card-heading">Web Design & Development</h2>
                 <p class="card-text">We design and develop websites, that's our thing. If you want a site that
                     stands out and reps your brand well, look no further.</p>
             </div>
             <div class="card">
+                <img src="content/magnet.svg" alt="" class="card-icon">
                 <h2 class="card-heading">Lead Generation & Conversion</h2>
                 <p class="card-text">You hire us to aquire new leads and conversions for your company. Disconnect and
                     focus on
                     your business while we handle the computer stuff.</p>
             </div>
             <div class="card">
+                <img src="content/mag-glass.svg" alt="" class="card-icon">
                 <h2 class="card-heading">SEO & Advertising</h2>
                 <p class="card-text">Keep your page ranking high. SEO
                     optimizes your site, while targeted ads drive traffic. Together, they can boost your visibility and
                     conversions.</p>
             </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="banner">
+        <img src="content/brain-fist.svg" alt="" class="about-img">
+        <div class="banner-box">
+            <h1 class="heading-main">Our Philosophy</h1>
+            <p class="text-main">Green Fist Digital is all about keeping things simple. Sometimes, it's best to take the
+                path of the least possible resistance. This means, using only what we need with as little tools,
+                plugins, and bloat possible. You get a low-maintenance webiste that performs better and is more secure
+                than others.
+            </p>
+            <p class="text-main">
+                No WordPress, Wix, Squarespace, or any other crap like that. Just clean, transparent, secure HTML & CSS.
+                Not limited to that, but that's what this website is. You like it? You... think it's cool, right?
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div id="contact-box" class="banner-box">
+            <h1 class="heading-main">Get In Touch</h1>
+            <p class="text-main">Ready to get started on your new website? We're just a form submission away. Reach out
+                to us for any questions web-related and we'll get back to you shortly.
+            </p>
+        </div>
+        <div class="form-container">
+            <form action="your-server-endpoint" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
         </div>
     </section>
 </body>
