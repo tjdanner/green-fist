@@ -1,13 +1,25 @@
+:root {
+  --light-green: #acff7e;
+  --green: #19df73;
+  --dark-green: #008266;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+}
 body {
   margin: 0;
 }
 
-h1, h2, h3, h4, ul, label, .submit-btn {
+h1,
+h2,
+h3,
+h4,
+ul,
+label,
+.submit-btn {
   font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -17,25 +29,26 @@ h1, h2, h3, h4, ul, label, .submit-btn {
 }
 
 .heading-2 {
-    font-size: 32px;
-    text-transform: uppercase;
+  font-size: 32px;
+  text-transform: uppercase;
 }
 
 .card-heading {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-p, input {
-  font-family: 'Courier New', Courier, monospace;
+p,
+input {
+  font-family: "Courier New", Courier, monospace;
   margin: 0;
 }
 
 .text-main {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .card-text {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .header-logo {
@@ -85,49 +98,48 @@ ul {
 /* Card Section */
 
 .card-section {
-    padding: 5%;
-    gap: 32px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 5%;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-container {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: stretch;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: left;
-    height: auto;
-    max-width: 450px;
-    min-width: none;
-    padding: 24px;
-    gap: 6px;
-    border: 2px solid black;
-    border-radius: 32px;
-    transition: 350ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: left;
+  height: auto;
+  max-width: 450px;
+  min-width: none;
+  padding: 24px;
+  gap: 4px;
+  border: 2px solid black;
+  border-radius: 32px;
+  transition: 350ms;
 }
 
 .card:hover {
-    transform: translateY(-12px);
+  transform: translateY(-12px);
 }
 
 .card-icon {
-  width: 80px;
-  margin-bottom: 16px;
+  width: 100px;
+  padding-bottom: 24px;
 }
-
 
 /* About Section */
 .about-img {
-    width: 520px;
+  width: 520px;
 }
 
 /* Contact Section */
@@ -160,7 +172,8 @@ label {
   font-size: 20px;
 }
 
-input, textarea {
+input,
+textarea {
   margin-bottom: 24px;
   padding: 16px 8px;
   font-size: 18px;
@@ -176,7 +189,7 @@ input, textarea {
   border: 2px solid black;
   border-radius: 32px;
   margin-top: 16px;
-  background-color: #32cd2b;
+  background-color: var(--green);
   box-shadow: -4px 4px black;
   transform: translate(4px, -4px);
   transition: 350ms;
@@ -189,4 +202,97 @@ input, textarea {
 
 #contact-box {
   width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-main {
+    font-size: 24px;
+  }
+
+  .text-main {
+    font-size: 16px;
+  }
+
+  /* Header */
+  header {
+    padding: 8px;
+  }
+  .header-logo {
+    width: 150px;
+  }
+
+  ul {
+    font-size: 16px;
+    gap: 8px;
+  }
+
+  /* Banner */
+  .banner {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .banner-box {
+    min-width: 0;
+    gap: 8px;
+  }
+  .banner-img {
+    width: 90%;
+  }
+
+  /* Card Sectoin */
+
+  .heading-2 {
+    font-size: 21px;
+  }
+  .card-section {
+    gap: 12px;
+  }
+  .card-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .card-heading {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+  .card-icon {
+    width: 100px;
+  }
+
+  /* About Section */
+  .about-img {
+    width: 90%;
+  }
+
+  /* Form Section */
+  .contact-section {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 24px;
+  }
+
+  #contact-box {
+    width: 100%;
+  }
+  label {
+    font-size: 14px;
+  }
+  input {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+
+  .submit-btn {
+    height: auto;
+    height: 35px;
+    margin-top: 0;
+    font-size: 14px;
+  }
 }
